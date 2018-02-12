@@ -1004,7 +1004,7 @@ const banks ={
         'content-type': 'application/json',
         'token': '3dwesdlklkl67tyu89888',
         'name': 'test bank 2',
-        'lang': 'en'
+        'lang': 'fr'
     },
     "test-3":{
         'content-type': 'application/json',
@@ -1015,7 +1015,7 @@ const banks ={
 }
 let userId;
 let bank;
-const serverURL = "https://money-watch.herokuapp.com/";
+const serverURL = "https://personetics-moneywatch.herokuapp.com";
 
 const personeticsAPIs = [
     'getInsights',
