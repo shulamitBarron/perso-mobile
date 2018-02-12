@@ -1015,7 +1015,7 @@ const banks ={
 }
 let userId;
 let bank;
-const serverURL = "http://localhost:8090";
+const serverURL = "https://money-watch.herokuapp.com/";
 
 const personeticsAPIs = [
     'getInsights',
