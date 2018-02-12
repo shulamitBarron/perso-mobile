@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <!-- bank third party scripts -->
+        <script src="js/jQuery-1.5.js"></script>
+    
+        <!-- personetics third party scripts -->
+        <script src="../personetics-chase/js/personetics-vendors.js"></script>
+    
+        <!-- personetics api -->
+        <script src="../personetics-chase/js/personetics-api.js"></script>
+
+        <script src="js/personetics-teasers.js"></script>
+    
+        <script src="js/predefinedInsights.js"></script>
+        <!-- <script src="js/newPredefinedInsights.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link rel="stylesheet" type="text/css" href="css/personetics-teasers.css">
+    
+        <script type="text/javascript" src="js/login.js"></script>
+    
+    </head>
+    <body>
+        <header>
+            <div class="header-title">My Bank</div>
+        </header>
+        <div id="initPersoneticsContainer">
+            <div class="row">
+                <label for="userId">user Id:</label>
+                <input type="text" id="userId" name="userId" />
+            </div>
+    
+            <div class="row">
+                <label for="pserverUrl">PServer URL: (on web ignore this field)</label>
+                <input type="text" id="pserverUrl" name="pserverUrl" value="../personetics/execute"/>
+            </div>
+            <div class="row">
+                <input type="button" id="initPersoneticsButton" name="initPersoneticsButton" value="Init Personetics" />
+                <input type="button" id="inboxPersoneticsButton" name="inboxPersoneticsButton" value="View Inbox Insights" />
+            </div>
+    
+            <div class="row">
+                <label for="view-selector">Teasers View:</label>
+                <div id="view-selector">
+                    <select>
+                        <option value="feeds" selected="selected">Feed</option>
+                        <option value="caruosel">Carousel</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label for="isUsePredefinedCheckbox">Use predefined client data: </label>
+                <input type="checkbox" id="isUsePredefinedCheckbox" name="isUsePredefinedCheckbox" />
+            </div>
+        </div>
+        <div id="insightsContainer"></div>
+    </body>
+    </html>
