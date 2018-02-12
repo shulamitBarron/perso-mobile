@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+#close-panel{
+    width: 100%;
+    background: #526CA8;
+    height: 39px;
+}
+
+.close-button{
+    position: relative;
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    width: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}

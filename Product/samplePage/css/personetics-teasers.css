@@ -1,0 +1,786 @@
+/*!
+ * Personetics story stylesheet
+ * API version: v1.0
+ * Client version: R2018.1.24_core7.1_5
+ * Generated on: 01-28-18
+ */
+/* line 1, ../sass/_base-design.scss */
+.perso-teaser-template {
+  /* HBox */
+}
+/* line 3, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-block-frame {
+  padding-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+/* line 10, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-block-hbox-columns-frame {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 15, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-hbox-column-frame {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+/* line 20, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-hbox-column-frame[data-v-align="middle"] {
+  vertical-align: middle;
+}
+/* line 23, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-hbox-column-frame[data-v-align="bottom"] {
+  vertical-align: bottom;
+}
+/* line 29, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-hbox-column-frame.left-separator {
+  position: relative;
+}
+/* line 31, ../sass/_base-design.scss */
+.perso-teaser-template .pstory-hbox-column-frame.left-separator::before {
+  background-color: #b7b7b7;
+  width: 1px;
+  height: 70%;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 44, ../sass/_base-design.scss */
+.perso-teaser-template .teaser-header {
+  width: 95%;
+  margin: auto;
+  background-color: #f8f8f8;
+  box-shadow: 0 10px 20px 0 rgba(44, 71, 92, 0.35);
+  border-radius: 10px;
+  top: -15px;
+  position: relative;
+}
+
+/* line 1, ../sass/_inbox.scss */
+.perso-teaser-filter-wrapper {
+  display: none;
+  color: #FFFFFF;
+  font-family: Roboto;
+  background-color: #485f96;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  padding-top: 1px;
+  margin-top: -1px;
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+  font-size: 16.9px;
+}
+@media (max-width: 347px) {
+  /* line 1, ../sass/_inbox.scss */
+  .perso-teaser-filter-wrapper {
+    font-size: 13px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 1, ../sass/_inbox.scss */
+  .perso-teaser-filter-wrapper {
+    font-size: 15.21px;
+  }
+}
+/* line 23, ../sass/_inbox.scss */
+.perso-teaser-filter-wrapper ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  width: 100%;
+  display: table;
+}
+/* line 31, ../sass/_inbox.scss */
+.perso-teaser-filter-wrapper .perso-teaser-filter-tab {
+  display: table-cell;
+  height: 3em;
+  vertical-align: middle;
+  width: calc(100% / 3);
+  padding: 0;
+}
+/* line 37, ../sass/_inbox.scss */
+.perso-teaser-filter-wrapper .perso-teaser-filter-tab.selected {
+  border-bottom: 0.23em solid #ffffff;
+}
+/* line 40, ../sass/_inbox.scss */
+.perso-teaser-filter-wrapper .perso-teaser-filter-tab:not(.selected) {
+  opacity: 0.3;
+}
+
+/* line 1, ../sass/_title.scss */
+.perso-teaser-title {
+  display: none;
+  height: 2.7em;
+  background-color: #5a77bc;
+  color: white;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 0;
+  font-family: Roboto;
+  font-size: 14.3px;
+}
+@media (max-width: 347px) {
+  /* line 1, ../sass/_title.scss */
+  .perso-teaser-title {
+    font-size: 11px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 1, ../sass/_title.scss */
+  .perso-teaser-title {
+    font-size: 12.87px;
+  }
+}
+/* line 19, ../sass/_title.scss */
+.perso-teaser-title .pstory-title-close, .perso-teaser-title .pstory-title-text {
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1.19em;
+}
+/* line 24, ../sass/_title.scss */
+.perso-teaser-title .pstory-title-text {
+  width: auto !important;
+}
+/* line 28, ../sass/_title.scss */
+.perso-teaser-title .pstory-title-close {
+  height: 0.75em;
+  width: 0.75em;
+  right: 1.19em;
+  background-image: url(../vanilla/images/close.svg);
+}
+/* line 34, ../sass/_title.scss */
+.perso-teaser-title input {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* line 5, ../sass/_table.scss */
+.pstory-block-content .perso-teaser-template .pstory-table .perso-td-date, .pstory-block-content .perso-teaser-template .pstory-table .perso-td-account-number {
+  font-family: JosefinSans;
+}
+/* line 11, ../sass/_table.scss */
+.pstory-block-content .perso-teaser-template .pstory-table .perso-td-amount-balance .perso-amount {
+  font-family: JosefinSans;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+/* line 16, ../sass/_table.scss */
+.pstory-block-content .perso-teaser-template .pstory-table .perso-td-amount-balance .perso-amount:first-child {
+  padding-left: 0;
+}
+/* line 20, ../sass/_table.scss */
+.pstory-block-content .perso-teaser-template .pstory-table .perso-td-amount-balance .perso-currency {
+  margin-right: 0.25em;
+}
+
+/* line 8, ../sass/skin.scss */
+.perso-multi-teaser-template {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+/* line 9, ../sass/skin.scss */
+.perso-multi-teaser-template .perso-teaser-template:first-child {
+  margin-top: 1em;
+}
+/* line 16, ../sass/skin.scss */
+.perso-multi-teaser-template .teaser-widget-error-wrapper {
+  display: flex;
+  height: calc(100% + 1em);
+  align-items: center;
+  margin-top: -1em;
+  background-color: #f1f6f4;
+  box-shadow: 0 0 3px 0 rgba(57, 99, 125, 0.5);
+  font-size: 31.2px;
+  padding: 0 0.9em;
+}
+@media (max-width: 347px) {
+  /* line 16, ../sass/skin.scss */
+  .perso-multi-teaser-template .teaser-widget-error-wrapper {
+    font-size: 24px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 16, ../sass/skin.scss */
+  .perso-multi-teaser-template .teaser-widget-error-wrapper {
+    font-size: 28.08px;
+  }
+}
+/* line 32, ../sass/skin.scss */
+.perso-multi-teaser-template .teaser-widget-error-text {
+  opacity: 0.6;
+  font-family: Kulya;
+  line-height: 1.03;
+  text-align: center;
+  color: rgba(65, 89, 108, 0.6);
+  padding-top: 1em;
+}
+/* line 40, ../sass/skin.scss */
+.perso-multi-teaser-template .teaser-widget-error-icon {
+  height: 3.66667em;
+  background: url(../resources/images/no-insights.svg) center no-repeat;
+  background-size: contain;
+}
+
+/* line 47, ../sass/skin.scss */
+.carousel-wrapper .perso-teaser-template {
+  margin: 1em auto;
+}
+
+/* line 51, ../sass/skin.scss */
+.perso-teaser-template {
+  position: relative;
+  width: 20.769em;
+  box-sizing: border-box;
+  font-family: Kulya;
+  white-space: normal;
+  margin: 2.692em auto;
+  font-size: 16.9px;
+}
+@media (max-width: 347px) {
+  /* line 51, ../sass/skin.scss */
+  .perso-teaser-template {
+    font-size: 13px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 51, ../sass/skin.scss */
+  .perso-teaser-template {
+    font-size: 15.21px;
+  }
+}
+
+/* line 66, ../sass/skin.scss */
+.perso-teaser-template {
+  background-color: #ffffff;
+  box-shadow: 0px 0.769em 1.538em 0 rgba(44, 71, 92, 0.15);
+  min-height: 15.77em;
+  height: 15.77em;
+  /* teaser header */
+  /* Teaser Body */
+  /* Date box */
+  /*image*/
+  /*pie*/
+  /* bar chart */
+  /**/
+  /*double-box*/
+  /**/
+  /*horizontal bar and box*/
+}
+/* line 73, ../sass/skin.scss */
+.perso-teaser-template .teaser-header {
+  box-shadow: 0px 0.769em 1.538em 0 rgba(44, 71, 92, 0.15);
+  padding: 0.77em;
+  height: 6.692em;
+  box-sizing: border-box;
+  width: 93.89%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 0.461em;
+  top: -0.731em;
+  position: relative;
+  font-family: Kulya;
+}
+/* line 85, ../sass/skin.scss */
+.perso-teaser-template .teaser-header .pstory-block-text {
+  text-align: left;
+}
+/* line 89, ../sass/skin.scss */
+.perso-teaser-template .teaser-header .teaser-text {
+  line-height: 1em;
+  height: 2.4em;
+  overflow: hidden;
+  color: #1d1d26;
+}
+/* line 94, ../sass/skin.scss */
+.perso-teaser-template .teaser-header .teaser-text .pstory-block-content {
+  line-height: 1.23em;
+  max-height: 1.4em;
+  padding-top: 1.143em;
+  transform: translateY(-50%);
+  text-align: right;
+  padding-right: 1em;
+  color: #2c475c;
+}
+/* line 105, ../sass/skin.scss */
+.perso-teaser-template .teaser-header .pstory-block-date {
+  text-align: left;
+  color: rgba(44, 71, 92, 0.7);
+  font-family: JosefinSans;
+  font-weight: bold;
+  position: absolute;
+  line-height: 1em;
+  left: 0.75em;
+}
+/* line 115, ../sass/skin.scss */
+.perso-teaser-template .teaser-header .header-title {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.385em;
+  padding-top: 0.627em;
+  padding-right: 0.75em;
+  padding-bottom: 0.15em;
+  color: #2c475c;
+}
+/* line 126, ../sass/skin.scss */
+.perso-teaser-template .teaser-top {
+  padding-bottom: 0.25em;
+}
+/* line 129, ../sass/skin.scss */
+.perso-teaser-template .teaser-top .pstory-hbox-column-frame.right-separator {
+  border-right: 0.23em solid;
+  border-color: #5471b3;
+}
+/* line 134, ../sass/skin.scss */
+.perso-teaser-template .teaser-top .insight-title-text {
+  padding-left: 1em;
+}
+/* line 136, ../sass/skin.scss */
+.perso-teaser-template .teaser-top .insight-title-text .pstory-block-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+/* line 146, ../sass/skin.scss */
+.perso-teaser-template .read-status-image {
+  text-align: right;
+}
+/* line 148, ../sass/skin.scss */
+.perso-teaser-template .read-status-image .pstory-block-content {
+  display: inline-block;
+  background-image: url("images/lamp-off.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-radius: 1.85em;
+  width: 1.85em;
+  height: 1.85em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 163, ../sass/skin.scss */
+.perso-teaser-template.perso-read .insight-title-text {
+  font-weight: bold;
+  white-space: normal;
+}
+/* line 167, ../sass/skin.scss */
+.perso-teaser-template.perso-read .perso-double-v {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2026.74%2014.98%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%232ec073%3Bstroke%3A%23fff%3Bstroke-miterlimit%3A10%3Bstroke-width%3A0.5px%3B%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset%208%3C/title%3E%3Cg%20id%3D%22Layer_2%22%20data-name%3D%22Layer%202%22%3E%3Cg%20id%3D%22Isolation_Mode%22%20data-name%3D%22Isolation%20Mode%22%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M7.17%2C14.73a1.1%2C1.1%2C0%2C0%2C1-.78-.32L.57%2C8.59A1.1%2C1.1%2C0%2C1%2C1%2C2.13%2C7l5%2C5L18.67.57a1.1%2C1.1%2C0%2C0%2C1%2C1.56%2C1.56L8%2C14.41A1.1%2C1.1%2C0%2C0%2C1%2C7.17%2C14.73Z%22/%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M26.17.57a1.1%2C1.1%2C0%2C0%2C0-1.56%2C0l-11.5%2C11.5-.7-.7-1.56%2C1.56%2C1.47%2C1.47a1.1%2C1.1%2C0%2C0%2C0%2C1.56%2C0L26.17%2C2.13A1.1%2C1.1%2C0%2C0%2C0%2C26.17.57Z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.667em;
+  height: 0.958em;
+  position: absolute;
+  right: 0.417em;
+  display: inline-block;
+}
+/* line 180, ../sass/skin.scss */
+.perso-teaser-template.perso-highlighted .read-status-image .pstory-block-content {
+  background-color: #eaf73e;
+  background-image: url("images/lamp-on.svg");
+}
+/* line 186, ../sass/skin.scss */
+.perso-teaser-template.perso-read {
+  -webkit-filter: none;
+  filter: none;
+}
+/* line 204, ../sass/skin.scss */
+.perso-teaser-template .teaser-body {
+  min-height: 7.85em;
+  background-color: transparent;
+  box-shadow: inset 0 10px 29px 0 transparent;
+  overflow: hidden;
+}
+/* line 212, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-date-box {
+  font-size: 15.6px;
+}
+@media (max-width: 347px) {
+  /* line 212, ../sass/skin.scss */
+  .perso-teaser-template .pstory-block-date-box {
+    font-size: 12px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 212, ../sass/skin.scss */
+  .perso-teaser-template .pstory-block-date-box {
+    font-size: 14.04px;
+  }
+}
+/* line 220, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-date-box .pstory-block-content {
+  margin-right: 1.18em;
+}
+/* line 223, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-date-box .pstory-block-date-day {
+  font-weight: 900;
+  font-size: 15.6px;
+}
+@media (max-width: 347px) {
+  /* line 223, ../sass/skin.scss */
+  .perso-teaser-template .pstory-block-date-box .pstory-block-date-day {
+    font-size: 12px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 223, ../sass/skin.scss */
+  .perso-teaser-template .pstory-block-date-box .pstory-block-date-day {
+    font-size: 14.04px;
+  }
+}
+/* line 234, ../sass/skin.scss */
+.perso-teaser-template.perso-read .pstory-block-date-box .pstory-block-date-day {
+  font-weight: 500;
+}
+/* line 239, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/* line 243, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-image img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+/* line 251, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-image.pstory-block-image-dbox img {
+  height: 100%;
+  width: auto;
+}
+/* line 259, ../sass/skin.scss */
+.perso-teaser-template .perso-pie-text {
+  font-size: 15.6px;
+  text-align: center;
+  margin-bottom: 0.45em;
+  color: #2ec073;
+  height: 2em;
+  line-height: 1.35;
+}
+@media (max-width: 347px) {
+  /* line 259, ../sass/skin.scss */
+  .perso-teaser-template .perso-pie-text {
+    font-size: 12px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 259, ../sass/skin.scss */
+  .perso-teaser-template .perso-pie-text {
+    font-size: 14.04px;
+  }
+}
+/* line 275, ../sass/skin.scss */
+.perso-teaser-template .pstory-hbox-column-frame.perso-first-pie {
+  padding-left: 0.4615em;
+}
+/* line 279, ../sass/skin.scss */
+.perso-teaser-template .pstory-hbox-column-frame.perso-last-pie .pstory-block-pie-chart {
+  margin-left: -0.4615em;
+}
+/* line 282, ../sass/skin.scss */
+.perso-teaser-template .pstory-hbox-column-frame.perso-last-pie .perso-pie-text {
+  margin-left: -0.5em;
+}
+/* line 289, ../sass/skin.scss */
+.perso-teaser-template text {
+  fill: #2c475c;
+  font-family: kulya;
+  font-size: 12px;
+  line-height: 0.94;
+}
+/* line 294, ../sass/skin.scss */
+.perso-teaser-template text .perso-total-txt {
+  font-family: JosefinSans;
+}
+/* line 297, ../sass/skin.scss */
+.perso-teaser-template text .percent {
+  font-size: 0.9875em;
+  line-height: 0.7;
+}
+/* line 302, ../sass/skin.scss */
+.perso-teaser-template .perso-bar {
+  fill: #c9d5de;
+}
+/* line 304, ../sass/skin.scss */
+.perso-teaser-template .perso-bar.selected {
+  fill: #5871d4;
+}
+/* line 309, ../sass/skin.scss */
+.perso-teaser-template .y.axis path {
+  display: none;
+}
+/* line 312, ../sass/skin.scss */
+.perso-teaser-template .pstory-bar-chart, .perso-teaser-template .pstory-pinGraph-chart {
+  font-family: JosefinSans-Bold;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15.6px;
+}
+@media (max-width: 347px) {
+  /* line 312, ../sass/skin.scss */
+  .perso-teaser-template .pstory-bar-chart, .perso-teaser-template .pstory-pinGraph-chart {
+    font-size: 12px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 312, ../sass/skin.scss */
+  .perso-teaser-template .pstory-bar-chart, .perso-teaser-template .pstory-pinGraph-chart {
+    font-size: 14.04px;
+  }
+}
+/* line 325, ../sass/skin.scss */
+.perso-teaser-template line.perso-chart-line {
+  stroke-width: 1px;
+  stroke: #d9d9d9;
+}
+/* line 329, ../sass/skin.scss */
+.perso-teaser-template line.perso-chart-line:first-child {
+  display: none;
+}
+/* line 332, ../sass/skin.scss */
+.perso-teaser-template g.perso-chart-line:nth-child(2) {
+  display: none;
+}
+/* line 339, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box .pstory-block-frame {
+  width: inherit;
+}
+/* line 344, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box .perso-double-box-value {
+  font-family: JosefinSans;
+  height: 1em;
+}
+/* line 348, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box .perso-double-box-text {
+  font-family: Kulya;
+  margin-top: 0.214em;
+}
+/* line 353, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-left {
+  background-color: transparent;
+  background: -webkit-repeating-linear-gradient(top, #2dc163, #01b8a6) !important;
+  -webkit-background-clip: text !important;
+  position: relative;
+}
+/* line 354, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-left .pstory-block-text {
+  color: #64c446;
+}
+/* line 364, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-left .perso-double-box-value:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.303em;
+  height: 0.4242em;
+  width: 0.0303em;
+  border-left: 0.0303em solid #d5dde3;
+}
+/* line 376, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-right {
+  background-color: transparent;
+  color: #ffffff;
+}
+/* line 380, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-right .perso-double-box-text {
+  background-image: none;
+  -webkit-text-fill-color: #11bab8;
+  color: #11bab8;
+  opacity: 1;
+}
+/* line 388, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value {
+  font-weight: 100;
+  line-height: 1;
+  overflow: hidden;
+  width: 100%;
+  font-size: 42.9px;
+}
+@media (max-width: 347px) {
+  /* line 388, ../sass/skin.scss */
+  .perso-teaser-template .perso-double-box-value {
+    font-size: 33px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 388, ../sass/skin.scss */
+  .perso-teaser-template .perso-double-box-value {
+    font-size: 38.61px;
+  }
+}
+/* line 401, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-text {
+  background-image: linear-gradient(to top, #2dc163, #01b8a6), linear-gradient(#11bab8, #11bab8);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+/* line 410, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-image {
+  margin-top: 1.25em;
+}
+/* line 414, ../sass/skin.scss */
+.perso-teaser-template .double-box-container {
+  margin-top: 1.55em;
+}
+/* line 419, ../sass/skin.scss */
+.perso-teaser-template .solid-colored {
+  color: #11bab8;
+  background-image: none;
+  -webkit-text-fill-color: #11bab8;
+}
+/* line 425, ../sass/skin.scss */
+.perso-teaser-template .asset-line {
+  position: relative;
+  white-space: nowrap;
+  margin: 2em 0 1em;
+}
+/* line 431, ../sass/skin.scss */
+.perso-teaser-template .right-asset, .perso-teaser-template .center-asset, .perso-teaser-template .left-asset {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 435, ../sass/skin.scss */
+.perso-teaser-template .right-asset > img, .perso-teaser-template .center-asset > img, .perso-teaser-template .left-asset > img {
+  width: 1.75em;
+  top: -0.25em;
+  position: relative;
+}
+/* line 442, ../sass/skin.scss */
+.perso-teaser-template .right-asset {
+  width: 26%;
+  text-align: right;
+  padding: 0 1em;
+}
+/* line 449, ../sass/skin.scss */
+.perso-teaser-template .left-asset {
+  width: 26%;
+  padding: 0 1em;
+  position: relative;
+}
+/* line 454, ../sass/skin.scss */
+.perso-teaser-template .left-asset > img {
+  top: -0.6em;
+}
+/* line 459, ../sass/skin.scss */
+.perso-teaser-template .center-asset {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  height: 0px;
+  border: dashed 1px #7bc583;
+  margin-top: 0.25em;
+}
+/* line 472, ../sass/skin.scss */
+.perso-teaser-template .perso-percent-small {
+  font-weight: 200;
+  padding-top: 0.36em;
+  font-size: 32.5px;
+}
+@media (max-width: 347px) {
+  /* line 472, ../sass/skin.scss */
+  .perso-teaser-template .perso-percent-small {
+    font-size: 25px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 472, ../sass/skin.scss */
+  .perso-teaser-template .perso-percent-small {
+    font-size: 29.25px;
+  }
+}
+/* line 483, ../sass/skin.scss */
+.perso-teaser-template .pstory-block-content .pluse {
+  color: #5d7cc1;
+  font-weight: bold;
+}
+/* line 488, ../sass/skin.scss */
+.perso-teaser-template .perso-percent-large {
+  color: #11bab8;
+  font-weight: 300;
+  padding-top: 8px;
+  line-height: 0.8em;
+  font-size: 39px;
+}
+@media (max-width: 347px) {
+  /* line 488, ../sass/skin.scss */
+  .perso-teaser-template .perso-percent-large {
+    font-size: 30px;
+  }
+}
+@media (min-width: 347px) and (max-width: 395px) {
+  /* line 488, ../sass/skin.scss */
+  .perso-teaser-template .perso-percent-large {
+    font-size: 35.1px;
+  }
+}
+/* line 502, ../sass/skin.scss */
+.perso-teaser-template .perso-read-more {
+  font-family: Rubik;
+  text-align: center;
+  width: 41.1%;
+  height: 2.64em;
+  position: absolute;
+  left: 50%;
+  bottom: -18%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 1.32em;
+  background-color: #5871d4;
+  line-height: 2em;
+  color: white;
+  font-size: 0.961em;
+  padding-top: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/* line 526, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value {
+  line-height: 1em;
+}
+/* line 528, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value .perso-amount {
+  position: relative;
+}
+/* line 530, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value .perso-amount .perso-currency {
+  font-family: Alef;
+  font-weight: normal;
+  font-size: 0.424em;
+  letter-spacing: -0.01em;
+}
+/* line 536, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value .perso-amount .perso-decimals {
+  font-weight: normal;
+  font-size: 0.424em;
+  letter-spacing: -0.05em;
+}
+/* line 541, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value .perso-amount .perso-decimals-dot {
+  font-weight: normal;
+  font-size: 0.484em;
+  letter-spacing: -0.05em;
+}
+/* line 546, ../sass/skin.scss */
+.perso-teaser-template .perso-double-box-value .perso-amount .perso-minus-sign {
+  position: relative;
+  top: -0.091em;
+}
+
+/* line 555, ../sass/skin.scss */
+.carousel-wrapper .perso-teaser-template {
+  width: 20.7em;
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+}

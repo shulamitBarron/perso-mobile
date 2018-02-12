@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+}
+
+/*header*/
+    header{
+        height: 60px;
+        background: #004499;
+        color: white;
+        font-size: 30px;
+    }
+    .header-title{
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 10px;
+    }
+/*login*/
+    #initPersoneticsContainer{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #004499;
+        border-radius: 10px;
+        color: #004499;
+    }
+    #initPersoneticsContainer .row{
+        padding: 5px 0;
+    }
+
+    #initPersoneticsContainer input[type="text"]{
+        display: block;
+        }
+    
+/*teasers*/
+    #insightsContainer{
+        margin: 10px;
+        margin-top: 25px;
+        color: #004499;
+    }
+
+    .perso-teaser{
+        border-radius: 5px;
+        background: linear-gradient(-90deg,#004499,#ffffff, #ffffff, #ffffff, #ffffff, #004499);
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 1px solid #004499;
+        border-radius: 4px;
+    }
