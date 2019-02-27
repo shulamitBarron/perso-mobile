@@ -265,7 +265,7 @@ this["Personetics"]["UI"]["Handlebars"]["templates"]["teaserWrapperPartial"] = H
     + alias4(((helper = (helper = helpers.insightId || (depth0 != null ? depth0.insightId : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"insightId","hash":{},"data":data}) : helper)))
     + "\">\r\n\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.backgroundImage : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(8, data, 0),"data":data})) != null ? stack1 : "")
-    + "    <div class=\"perso-read-more\">ספרי לי עוד</div>\r\n</div>";
+    + "    <div class=\"perso-read-more\">>></div>\r\n</div>";
 },"usePartial":true,"useData":true});
 
 this["Personetics"]["UI"]["Handlebars"]["templates"]["textAndButton"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
