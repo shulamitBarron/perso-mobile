@@ -3,7 +3,7 @@ var home = function home() {
     this.initialize = function initialize() {
 
         this.config = {
-            lang: "en",
+            lang: "fr",
             deviceType: "web",
             ctxId: "dashboard",
             payload: payload,
@@ -71,7 +71,7 @@ var home = function home() {
 
     this.buildPayLoad = function(){
         var payload = {
-            lang: "en",
+            lang: "fr",
             deviceType: "web",
             ctxId: "dashboard",
             insights:null,
